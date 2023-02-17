@@ -1,0 +1,11 @@
+name: Dungeons
+version: '${project.version}'
+main: me.elixirrpg.net.dungeons.Dungeons
+api-version: 1.19
+author: ElixirRPG Dev. Team
+description: A plugin that runs a dungeon every hour for players to participate in.
+
+commands:
+  dungeon:
+    description: Join the hourly dungeon run.
+    usage: /dungeon
